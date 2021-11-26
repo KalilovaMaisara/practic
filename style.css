@@ -15,6 +15,10 @@ body{
     z-index: 2;
 }
 
+.container h1{
+    color: white;
+}
+
 .list{
     display: flex;
     list-style: none;
@@ -38,4 +42,27 @@ body{
 
 .list li:hover a{
     color: white;
+}
+
+.socialicons{
+    display: inline-flex;
+    list-style: none;
+    margin: 10px;
+    padding-left: 200px;
+}
+
+.socialicons li{
+    margin: 0 20px;
+}
+
+.tele{
+    color: blue;
+}
+
+.tube{
+    color: red;
+}
+
+.insta{
+    color: purple;
 }
